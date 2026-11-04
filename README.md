@@ -1,3 +1,4 @@
+Markdown
 # 🧮 Calculadora em Python
 
 Projeto desenvolvido com o objetivo de praticar a lógica de programação, modularização, tratamento de exceções e estruturas de controle em **Python**. O repositório contém duas versões de calculadoras executadas diretamente pelo terminal.
@@ -43,3 +44,13 @@ Certifique-se de ter o Python instalado no seu computador[cite: 3].
 * Para a versão simples:
   ```bash
   python calculadora.py
+(Se o comando python não estiver disponível no seu Windows, tente usar py)[cite: 3]
+
+Para a versão interativa avançada:
+
+Bash
+python calculadorainterativa.py
+💡 Como Usar
+Ao iniciar o programa, um menu interativo aparecerá no seu terminal[cite: 3]. Basta digitar o número correspondente à operação desejada, inserir os números solicitados quando pedido e pressionar Enter para continuar[cite: 3]. Para encerrar a aplicação, basta escolher a opção de sair (0)[cite: 3].
+
+
