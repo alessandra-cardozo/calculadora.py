@@ -1,48 +1,45 @@
-# Calculadoras em Python
+# 🧮 Calculadora em Python
 
-Este projeto contém dois programas de calculadora executados no terminal, sem dependências externas.
+Projeto desenvolvido com o objetivo de praticar a lógica de programação, modularização, tratamento de exceções e estruturas de controle em **Python**. O repositório contém duas versões de calculadoras executadas diretamente pelo terminal.
 
-## Requisitos
+---
 
-- Python 3 instalado.
-- Python 3.10 ou superior para executar `calculadorainterativa.py`, que usa `match/case`.
+## 🚀 Tecnologias Utilizadas
+* **Python** (versão 3.10 ou superior recomendada para suporte ao `match/case`)
+* Módulo nativo **`math`**
 
-## Como executar
+---
 
-Abra um terminal na pasta do projeto e execute um dos comandos:
+## 📁 Estrutura dos Programas
 
-```powershell
-python .\calculadora.py
-```
+### 1. `calculadora.py` (Calculadora Simples)
+Uma calculadora com um menu interativo básico para operações do dia a dia[cite: 3]. 
+* **Operações suportadas:** Adição, Subtração, Multiplicação e Divisão[cite: 3].
+* **Validações:** O programa valida as opções do menu, trata entradas numéricas inválidas (`ValueError`) e impede a divisão por zero (`ZeroDivisionError`)[cite: 3].
 
-```powershell
-python .\calculadorainterativa.py
-```
+### 2. `calculadorainterativa.py` (Calculadora Avançada)
+Uma versão modularizada e expandida, utilizando funções separadas para cada operação e a estrutura moderna `match/case`[cite: 3].
+* **Operações suportadas:**
+  * Adição (`+`)[cite: 3]
+  * Subtração (`-`)[cite: 3]
+  * Multiplicação (`*`)[cite: 3]
+  * Divisão (`/`)[cite: 3]
+  * Potência (`**`)[cite: 3]
+  * Raiz Quadrada (`√`)[cite: 3]
+  * Resto da Divisão (`%`)[cite: 3]
+  * Divisão Inteira (`//`)[cite: 3]
+* **Validações:** Tratamento completo de erros para entradas inválidas, raízes de números negativos e divisão por zero[cite: 3].
 
-Se o comando `python` não estiver disponível no Windows, tente usar `py` no lugar dele.
+---
 
-## Programas
+## 🛠️ Como Executar o Projeto
 
-### `calculadora.py`
+Certifique-se de ter o Python instalado no seu computador[cite: 3].
 
-Calculadora simples com um menu interativo. Oferece:
+1. Clone este repositório ou descarregue os ficheiros[cite: 3].
+2. Abra um terminal na pasta onde os ficheiros estão guardados[cite: 3].
+3. Execute o programa desejado digitando um dos comandos abaixo[cite: 3]:
 
-- Adição
-- Subtração
-- Multiplicação
-- Divisão
-
-O programa valida a opção escolhida, trata entradas numéricas inválidas e impede divisão por zero.
-
-### `calculadorainterativa.py`
-
-Versão com operações adicionais:
-
-- Adição, subtração e multiplicação
-- Divisão
-- Potência
-- Raiz quadrada de números não negativos
-- Resto da divisão
-- Divisão inteira
-
-Também valida as opções e trata entradas inválidas e operações de divisão por zero. Pressione `0` para sair; após cada operação, pressione Enter para voltar ao menu.
+* Para a versão simples:
+  ```bash
+  python calculadora.py
